@@ -29,3 +29,22 @@ img {
   display: block;
   width: 100%;
 }
+
+figcaption {
+	position: absolute;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.column1 {
+	width: 33.333%;
+	display:block;
+}
+
+.column2 {
+	width: 33.333%;
+}
+
+.column3 {
+	width: 33.333%;
+}
