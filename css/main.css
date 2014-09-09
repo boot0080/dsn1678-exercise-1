@@ -26,25 +26,52 @@ body {
 }
 
 img {
-  display: block;
+	display:block;
   width: 100%;
 }
 
+h2 {
+	font-size: 1em;
+	color: #ccc;
+	text-transform: capitalize;
+}
+
 figcaption {
-	position: absolute;
 	color: #fff;
 	font-family: sans-serif;
+	position:absolute;
+}
+
+figure {
+	position: relative;
+}
+
+.content {
+	padding: 3em;
 }
 
 .column1 {
-	width: 33.333%;
-	display:block;
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+	border-right-color:#b2b2b2;
+	border-right-width: 1px;
+	border-right-style: solid;
+	padding: 0 1rem;
 }
 
 .column2 {
-	width: 33.333%;
+	width: 33.33%;
+	display: inline-block;
+	border-right-color:#b2b2b2;
+	border-right-width: 1px;
+	border-right-style: solid;
+	padding: 0 1rem;
 }
 
 .column3 {
-	width: 33.333%;
+	width: 33.33%;
+	float: right;
+	display: inline-block;
+	padding: 0 1rem;
 }
