@@ -39,15 +39,11 @@ h2 {
 figcaption {
 	color: #fff;
 	font-family: sans-serif;
-	position:absolute;
+	position: absolute;
 }
 
 figure {
 	position: relative;
-}
-
-.content {
-	padding: 3em;
 }
 
 .column1 {
@@ -74,4 +70,5 @@ figure {
 	float: right;
 	display: inline-block;
 	padding: 0 1rem;
+	
 }
